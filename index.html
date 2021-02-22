@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__body">
+				<div class="header__person header-person">
+					<div class="header-person__logo">
+						<img src="Images/Logo.jpg" alt="">
+					</div>
+					<div class="header-person__name">
+						<a href="#">Dmitry Brydich</a>
+					</div>
+				</div>
+				<div class="header-menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+				<nav class="header-menu">
+				   <div class="header__logo">
+					    <div class="header__logo_img">
+					    	<img src="Images/Logo.jpg" alt="" class="header_logo">
+					    </div>
+					    <div class="header_name">
+						    <p>Dmitry</p>
+						    <p>Brydich</p>
+					    </div>
+				   </div>
+					<ul class="header-menu__list" id="swipe__button_block"> 
+						<li class="header-menu__item"><button class="header-menu_btn header-menu__button header-menu__buttonOne active">О себе</button></li>
+						<li class="header-menu__item"><button class="header-menu_btn header-menu__button header-menu__buttonTwo">Резюме</button></li>
+						<li class="header-menu__item"><button class="header-menu_btn header-menu__button header-menu__buttonThree">Портфолио</button></li>
+						<li class="header-menu__item"><button class="header-menu_btn header-menu__button header-menu__buttonFour">Контакты</button></li>
+					</ul>
+					<ul class="header-menu__icons">
+						<li class="header-menu__icon">
+							<a href="#" class="header-menu__icon-link" target="_blank">
+								<img src="Images/facebook.svg" alt="">
+							</a>
+						</li>
+						<li class="header-menu__icon">
+							<a href="https://www.instagram.com/brydich.len/" class="header-menu__icon-link" target="_blank">
+								<img src="Images/instagram.svg" alt="">
+							</a>
+						</li>
+						<li class="header-menu__icon">
+							<a href="#" class="header-menu__icon-link" target="_blank">
+								<img src="Images/vk.svg" alt="">
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main info-slider">
+			<div class="info-slider__pageOne info-slider__item about">
+				<div class="about__body">
+					<div class="about__pictures">
+						<div class="about__logo-text">
+							<div class="about__title">
+								<p>WEB разработка</p>
+							</div>
+							<div class="about__sub-title">
+								<p>Разработка сайтов под ключ. От логотипа до готового продукта. Уникальный дизайн, статичная вёрстка или посадка на CMS. Продающая страница, информационный портал или интернет магазин.</p>
+							</div>
+						</div>
+						<div class="about__logo">
+							<img src="Images/web-photo.jpg" alt="">
+						</div>
+					</div>
+					<div class="about__vector about-vector">
+						<div class="about__vector_title title-style">
+							<p>Направление:</p>
+						</div>
+						<ul class="about-vector__list">
+							<li class="about-vector__item">
+								<div class="about-vector__icon">
+									<img src="Images/Storefront.svg" alt="">
+								</div>
+								<div class="about-vector__inception">
+									<div class="about-vector__title">
+										<p>Электронная коммерция</p>
+									</div>
+									<div class="about-vector__text">
+										<p>Разработка ресурсов для электронной коммерции: магазины, продающие страницы и т.п.</p>
+									</div>
+								</div>
+							</li>
+							<li class="about-vector__item">
+								<div class="about-vector__icon">
+									<img src="Images/laptop.svg" alt="">
+								</div>
+								<div class="about-vector__inception">
+									<div class="about-vector__title">
+										<p>Создание уникального контента</p>
+									</div>
+									<div class="about-vector__text">
+										<p>Написание уникальных и продающих текстов, подготовка медиа-контента, создание логотипов и иконок.</p>
+									</div>
+								</div>
+							</li>
+							<li class="about-vector__item">
+								<div class="about-vector__icon">
+									<img src="Images/pencil-case.svg" alt="">
+								</div>
+								<div class="about-vector__inception">
+									<div class="about-vector__title">
+										<p>Дизайн сайтов</p>
+									</div>
+									<div class="about-vector__text">
+										<p>Разработка дизайна сайтов с нуля и до последней правки. Учитываются все пожелания и предпочтения клиента.</p>
+									</div>
+								</div>
+							</li>
+							<li class="about-vector__item">
+								<div class="about-vector__icon">
+									<img src="Images/like.svg" alt="">
+								</div>
+								<div class="about-vector__inception">
+									<div class="about-vector__title">
+										<p>Поддержка и обслуживание</p>
+									</div>
+									<div class="about-vector__text">
+										<p>Предоставляется услуга поддержки и обслуживания проектов после сдачи клиенту. Доработки новых функционалов и наполнение контентом.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="about__feedback about-feedback">
+						<div class="about-feedback__tile title-style">
+							<p>Отзывы</p>
+						</div>
+						<!-- Slider -->
+						<div class="about-feedback__list slider-feedback">
+							<div class="about-feedback__item">
+								<div class="about-feedback__text">
+									<p>Сделал быстро, качественно с учетом всех моих пожеланий и замечаний. Рекомендую.</p>
+								</div>
+								<div class="about-feedback__person">
+									<div class="about-feedback__person_logo">
+										<img src="Images/Slider-feedback-01.jpg" alt="">
+									</div>
+									<div class="about-feedback__info-person">
+										<div class="about-feedback__person_name">
+											<p>Евгений Каранюк</p>
+										</div>
+										<a href="#" class="about-feedback__link">Training-Hub</a>
+									</div>
+								</div>
+							</div>
+							<div class="about-feedback__item">
+								<div class="about-feedback__text">
+									<p>Общительный, сразу приступил к работе и быстро выполнил заказ. Учитывал все мои пожелания и скидывал отчеты. Очень приятно работать с таким человеком.</p>
+								</div>
+								<div class="about-feedback__person">
+									<div class="about-feedback__person_logo">
+										<img src="Images/Slider-feedback-02.jpg" alt="">
+									</div>
+									<div class="about-feedback__info-person">
+										<div class="about-feedback__person_name">
+											<p>Алексей Кузнецов</p>
+										</div>
+										<a href="#" class="about-feedback__link">Training-Hub</a>
+									</div>
+								</div>
+							</div>
+							<div class="about-feedback__item">
+								<div class="about-feedback__text">
+									<p>Быстро и качественно, по крайней мере мне не удалось найти косяков в работе. Понятный html код, который легко изменять. Хороший уровень работы. Я доволен.</p>
+								</div>
+								<div class="about-feedback__person">
+									<div class="about-feedback__person_logo">
+										<img src="Images/Slider-feedback-03.jpg" alt="">
+									</div>
+									<div class="about-feedback__info-person">
+										<div class="about-feedback__person_name">
+											<p>Александр Михин</p>
+										</div>
+										<a href="#" class="about-feedback__link">Training-Hub</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info-slider__pageTwo info-slider__item resume">
+				<div class="resume__body">
+					<div class="resume__headline">
+						<div class="resume__title">
+							<p>Резюме</p>
+						</div>
+						<div class="resume__sub-title">
+							<p>10 лет опыта</p>
+						</div>
+					</div>
+					<div class="resume__content resume-info">
+						<div class="resume-info__column more">
+							<div class="resume-info__education education">
+								<div class="education__title title-style">
+									<p>Образование</p>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2000-2004</p>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Национальный Авиационный Университет</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Дневное обучение на факультете информатики</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2018</p>
+										<span>KIT Center</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Frontend developer</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Вечерние курсы в школе KIT: HTML, CSS, JS, BOOTSTRAP</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2019</p>
+										<span>Курсор</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>WORDPRESS</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Работа с WORDPRESS, создание, администрирование и наполнение блога.</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2019</p>
+										<span>GLO Academy</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Создание шаблона с нуля</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Создание шаблона WORDPRESS с нуля, посадка на вордпресс, кастомизация, работа с плагинами. Свои типы записей, произвольные поля. Woocommerce.</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2020</p>
+										<span>Udemy</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>JavaScript, JQuery</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Изучение JavaScript, работа с DOM, события</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="resume-info__education education">
+								<div class="education__title title-style">
+									<p>Последний опыт работы</p>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2020 - Текущая</p>
+										<span>FREELANCE</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Frontend разработчик</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Разработка сайтов от посадочных страниц до магазинов как на чистом HTML + CSS + JS, так и на CMS.</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2019-2020</p>
+										<span>FrontMen</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Frontend разработчик</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Создание, поддержка и правка Web страниц, как с нуля так и существующих. Вёрстка
+											страниц с макетов графических программ, участие в разработке порталов и больших
+											корпоративных проектов.</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2019</p>
+										<span>Univest-PrePress</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Руководитель группы DTP и препресс-инженеров, специалист по компьютерной графике.</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Руководитель отдела дизайнеров и репрографов. Оптимизация процессов в работе отдела, разработка новых продуктов компании.</p>
+										</div>
+									</div>
+								</div>
+								<div class="education__description education__item resume__item-bottom">
+									<div class="education__year resume__title-card">
+										<p>2019</p>
+										<span>Univest-PrePress</span>
+									</div>
+									<div class="education__inception">
+										<div class="education__inception_title resume__titleName-card">
+											<p>Ведущий специалист по компьютерной графике, а также допечатной подготовке. DTP инженер.</p>
+										</div>
+										<div class="education__inception_text resume__text-card">
+											<p>Разработка макетов для печатной продукции, упаковки, широкоформатной продукции.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="resume-info__column">
+							<div class="resume-info__progress progress">
+								<div class="progress__item">
+									<div class="progress__title title-style">
+										<p>Навыки дизайна</p>
+									</div>
+									<div class="progress__strings">
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Web дизайн<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Печатный дизайн<span>85%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line85">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Дизайн логотипов<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Графический дизайн<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="progress__item">
+									<div class="progress__title title-style">
+										<p>Навыки програмирования</p>
+									</div>
+									<div class="progress__strings">
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>JavaScript<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>JQuery<span>70%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line70">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>PHP<span>50%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line50">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>HTML<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>CSS<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>SCSS<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Bootstrap<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Word-Press<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Mosaic<span>60%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line60">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>GIT<span>70%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line70">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="progress__item">
+									<div class="progress__title title-style">
+										<p>Графические программы</p>
+									</div>
+									<div class="progress__strings">
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Adobe Photoshop<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Adobe Illustrator<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Figma<span>90%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line90">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>CorelDraw<span>80%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line80">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="progress__item">
+									<div class="progress__title title-style">
+										<p>Знание языков</p>
+									</div>
+									<div class="progress__strings">
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Русский<span>100%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line100">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Украинский<span>100%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line100">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+										<div class="progress__strings_item">
+											<div class="progress__string_title string-style">
+												<p>Английский<span>60%</span></p>
+											</div>
+											<div class="progress__string_item">
+												<div class="progress__line progress__line60">
+													<!--  -->
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info-slider__pageThree info-slider__item portfolio">
+				<div class="portfolio__body contacts__body">
+					<div class="resume__headline">
+						<div class="resume__title">
+							<p>Портфолио</p>
+						</div>
+						<div class="resume__sub-title">
+							<p>Мои работы</p>
+						</div>
+					</div>
+					<div class="portfolio__content">
+						<div class="portfolio__filtres portfolio-filter">
+							<ul class="portfolio-filter__list">
+								<li class="portfolio-filter__item" data-filter="all"><a href="#" class="portfolio-filter__link">All</a></li>
+								<li class="portfolio-filter__item" data-filter="categoryOne"><a href="#" class="portfolio-filter__link">Магазин</a></li>
+								<li class="portfolio-filter__item" data-filter="categoryTwo"><a href="#" class="portfolio-filter__link">Продающие сайты</a></li>
+								<li class="portfolio-filter__item" data-filter="categoryThree"><a href="#" class="portfolio-filter__link">Работы в компаниях</a></li>
+							</ul>
+						</div>
+						<div class="portfolio__list portfolio-galery">
+							<div class="portfolio-galery__body">
+								<div class="portfolio-galery__column">
+									<a class="portfolio-galery__item-wrapper categoryOne" href="https://brydich.github.io/instyle-new/" target="_blank">
+										<div class="portfolio-galery__item">
+											<img src="Images/Instyle.jpg" alt="">
+											<!-- https://brydich.github.io/instyle-new/ -->
+										</div>
+										<div class="portfolio-galery__inception">
+											<span></span>
+										</div>
+									</a>
+									<a class="portfolio-galery__item-wrapper categoryTwo" href="https://brydich.github.io/flat/" target="_blank">
+										<div class="portfolio-galery__item">
+											<img src="Images/Picture-1.jpg" alt="">
+										</div>
+										<div class="portfolio-galery__inception">
+ 											<span></span>
+										</div>
+									</a>
+								</div>
+								<div class="portfolio-galery__column">
+									<a class="portfolio-galery__item-wrapper categoryOne" href="https://brydich.github.io/business/" target="_blank">
+										<div class="portfolio-galery__item">
+											<img src="Images/business.jpg" alt="">
+											<!-- https://brydich.github.io/instyle-new/ -->
+										</div>
+										<div class="portfolio-galery__inception light">
+											<span></span>
+										</div>
+									</a>
+									<a class="portfolio-galery__item-wrapper categoryTwo" href="https://brydich.github.io/beach/" target="_blank">
+										<div class="portfolio-galery__item">
+											<img src="Images/Beach.jpg" alt="">
+										</div>
+										<div class="portfolio-galery__inception light">
+											<span></span>
+										</div>
+									</a>
+								</div>
+								<div class="portfolio-galery__column">
+									<a class="portfolio-galery__item-wrapper categoryThree" href="https://brydich.github.io/houses/" target="_blank">
+										<div class="portfolio-galery__item">
+											<img src="Images/Lombard.jpg" alt="">
+										</div>
+										<div class="portfolio-galery__inception light">
+											<span></span>
+										</div>
+									</a>
+									<!-- <div class="portfolio-galery__item-wrapper">
+										<div class="portfolio-galery__item">
+											<img src="Images/Picture-1.jpg" alt="">
+										</div>
+										<div class="portfolio-galery__inception">
+											<span></span>
+										</div>
+									</div>
+									<div class="portfolio-galery__item-wrapper">
+										<div class="portfolio-galery__item">
+											<img src="Images/Picture-1.jpg" alt="">
+										</div>
+										<div class="portfolio-galery__inception">
+											<span></span>
+										</div>
+									</div> -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="info-slider__pageFour info-slider__item contacts">
+				<div class="contacts__body">
+					<div class="resume__headline">
+						<div class="resume__title">
+							<p>Контакты</p>
+						</div>
+						<div class="resume__sub-title">
+							<p>Связаться</p>
+						</div>
+					</div>
+					<div class="contacts__content">
+						<div class="contacts__contacts contacts-card">
+							<div class="contacts-card__body">
+								<a class="contacts-card__item" href="https://www.google.ru/maps/place/Санкт-Петербург/@59.9392259,29.5342936,9z/data=!3m1!4b1!4m5!3m4!1s0x4696378cc74a65ed:0x6dc7673fab848eff!8m2!3d59.9310584!4d30.3609096" target="_blank">
+									<div class="contacts-card__image">
+										<img src="Images/google-maps.svg" alt="">
+									</div>
+									<div class="contacts-card__text">
+										<p>Санкт-Петербург</p>
+									</div>
+								</a>
+								<a class="contacts-card__item" href="https://mail.ru/" target="_blank">
+									<div class="contacts-card__image">
+										<img src="Images/send.svg" alt="">
+									</div>
+									<div class="contacts-card__text">
+										<p>dmitry-<wbr>brydich@mail<wbr>.ru</p>
+									</div>
+								</a>
+								<a class="contacts-card__item" href="#" target="_blank">
+									<div class="contacts-card__image">
+										<img src="Images/check-box.svg" alt="">
+									</div>
+									<div class="contacts-card__text">
+										<p>Доступен на freelance</p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<form action="#" class="contacts__form contact-form" name="feedback">
+							<div class="contact-form__title title-style">
+								<p>Чем могу помочь?</p>
+							</div>
+							<div class="contact-form__window">
+								<div class="contact-form__write">
+									<div class="contact-form__info-person">
+										<div class="contact-form__item">
+											<input type="text" placeholder="Ваше имя">
+										</div>
+										<div class="contact-form__item">
+											<input type="text" placeholder="E-mail адресс">
+										</div>
+										<div class="contact-form__item">
+											<input type="text" placeholder="Тема">
+										</div>
+									</div>
+									<div class="contact-form__message">
+										<textarea name="messagePerson" placeholder="Сообщение"></textarea>
+									</div>
+								</div>
+								<div class="contact-form__check">
+									<!--  -->
+								</div>
+								<div class="contact-form__send">
+									<button class="contact-form__bitton-send">Отправить</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<div class="swipe">
+			<button class="swipe__button swipe_btn swipe_prev"></button>
+			<button class="swipe__button swipe_btn swipe_next"></button>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="slick.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
